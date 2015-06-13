@@ -1,0 +1,25 @@
+{
+    "name": "andreosoft/yii2-image-manager",
+    "description": "The Image Manager extension for the Yii framework",
+    "keywords": ["yii2", "Image", "Manager"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "source": "https://github.com/andreosoft/yii2-image-manager"
+    },
+    "authors": [
+        {
+            "name": "Andrey Zagorets",
+            "email": "AndreyZagorets@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "andreosoft/yii2-image": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "andreosoft\\imagemanager\\": ""
+        }
+    }
+}
